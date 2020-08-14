@@ -1,0 +1,147 @@
+.multiple-datasets .tt-menu{
+  width: 100% !important;
+}
+
+.multiple-datasets .tt-menu{
+  background: #3a3b3c !important;
+}
+
+
+.tt-dataset .league-name {
+  padding:6px 3px 6px 3px;
+  background: #0f1724;
+}
+
+
+.multiple-datasets  span.twitter-typeahead .tt-suggestion {
+  display: block;
+  padding: 5px 15px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 15px;
+  border-color: rgba(255, 255, 255, 0.23);
+
+}
+
+
+.multiple-datasets span.twitter-typeahead .tt-suggestion.tt-cursor, 
+.multiple-datasets span.twitter-typeahead .tt-suggestion:hover, 
+.multiple-datasets span.twitter-typeahead .tt-suggestion:focus{
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #25364E;
+}
+
+
+
+.tag-control .twitter-typeahead { display:initial !important; }
+.tag-control .bootstrap-tagsinput {line-height:40px;display:block !important; }
+.tag-control .bootstrap-tagsinput .tag {background:#09F;padding:5px;border-radius:4px;}
+.tag-control .tt-hint {top:4px !important;}
+.tag-control .tt-input{vertical-align:baseline !important;}
+.tag-control .typeahead {border-radius: 4px;padding: 8px 12px;font-size:1.5em;}
+
+
+.tag-control span.twitter-typeahead .tt-suggestion {padding: 10px 10px;  border-bottom:#CCC 1px solid;cursor:pointer;}
+
+.tag-control span.twitter-typeahead .tt-suggestion:last-child { border-bottom:0px; }
+  
+  
+.tag-control span.twitter-typeahead .tt-menu,
+.tag-control  span.twitter-typeahead .tt-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+/*  margin: 2px 0 0;*/
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.tag-control  span.twitter-typeahead .tt-suggestion {
+  display: block;
+  padding: 2px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+
+}
+.tag-control span.twitter-typeahead .tt-suggestion.tt-cursor,
+.tag-control span.twitter-typeahead .tt-suggestion:hover,
+.tag-control  span.twitter-typeahead .tt-suggestion:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #007bff;
+}
+.input-group.input-group-lg span.twitter-typeahead .form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+.input-group.input-group-sm span.twitter-typeahead .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+span.twitter-typeahead {
+  width: 100%;
+}
+.input-group span.twitter-typeahead {
+  display: block !important;
+  height: 34px;
+}
+.input-group span.twitter-typeahead .tt-menu,
+.input-group span.twitter-typeahead .tt-dropdown-menu {
+  top: 32px !important;
+}
+.input-group span.twitter-typeahead:not(:first-child):not(:last-child) .form-control {
+  border-radius: 0;
+}
+.input-group span.twitter-typeahead:first-child .form-control {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input-group span.twitter-typeahead:last-child .form-control {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.input-group.input-group-sm span.twitter-typeahead {
+  height: 30px;
+}
+.input-group.input-group-sm span.twitter-typeahead .tt-menu,
+.input-group.input-group-sm span.twitter-typeahead .tt-dropdown-menu {
+  top: 30px !important;
+}
+.input-group.input-group-lg span.twitter-typeahead {
+  height: 46px;
+}
+.input-group.input-group-lg span.twitter-typeahead .tt-menu,
+.input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
+  top: 46px !important;
+}
