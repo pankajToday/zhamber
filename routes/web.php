@@ -1,5 +1,6 @@
 <?php
 use App\Http\Middleware\CheckStatus;
+use App\User;
 
 Route::group(array('before' => 'auth'), function() 
 {
@@ -13,8 +14,7 @@ Route::group(array('before' => 'auth'), function()
      Route::get('/storage-link', function() {$exitCode = Artisan::call('storage:link'); return 'storage link created'; });
 
 
-});    
-
+});
 
 
 //Social Media
@@ -24,7 +24,7 @@ Route::get('/callback/{provider}', 'SocialAuthController@callback');
 Route::get('/testemail','IndexController@testemail');
 
 Route::get('/','IndexController@index');
-Route::get('',['as'=>'posts','uses'=>'IndexController@index']);
+//Route::get('',['as'=>'posts','uses'=>'IndexController@index']);
 
 Route::prefix('tag')->group(function () {
     Route::get('{tag}','MarkController@index');

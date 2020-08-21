@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\User;
 use Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
@@ -57,8 +58,6 @@ class LoginController extends Controller
 
     public function login(Request $request)
     {
-       
-     
         $this->validate($request, [
             'login'    => 'required',
             'password' => 'required',

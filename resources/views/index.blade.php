@@ -71,7 +71,10 @@
                <div class="page-load-status text-center">
                   <div class="infinite-scroll-request">
                     
-                   <div class="svg-loader"> <svg class="svg-circular"> <circle class="svg-path" cx="50" cy="50" r="40" fill="none" stroke-width="2" stroke-miterlimit="10"/> </svg> </div>
+                   <div class="svg-loader"> <svg class="svg-circular">
+                           <circle class="svg-path" cx="50" cy="50" r="40" fill="none"
+                                   stroke-width="2" stroke-miterlimit="10"/> </svg>
+                   </div>
                   
 
                   </div>

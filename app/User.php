@@ -7,6 +7,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use DB;
+
 class User extends Authenticatable
 {
     use HasApiTokens, Notifiable;
@@ -17,7 +18,9 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'id','name','username','email','mobile','password','avatar','is_active','session_id','id_device','fkey','my_language','cover_photo','city','id_country','aboutme','gender','access_token','provider','provider_id'
+        'id','name','username','email','mobile','password','avatar','is_active','session_id',
+        'id_device','fkey','my_language','cover_photo','city','id_country','aboutme','gender',
+        'access_token','provider','provider_id'
 
     ];
 

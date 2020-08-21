@@ -75,7 +75,8 @@ class MarkController extends Controller
         } else {
             $page_url .= '?';
         }
-       
+
+        //dd(compact( 'posts', 'posts_count','total_pages','param','page_url','tag'));
         // $page_url =   http_build_query($param,'&');
 
         return view('posts.tag', compact('posts', 'posts_count','total_pages','param','page_url','tag'));

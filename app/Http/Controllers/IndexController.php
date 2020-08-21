@@ -48,7 +48,7 @@ class IndexController extends Controller
        
       
         //QUERY START
-        $query = Post::select(_groupArr())->where('posts.is_active',1);
+        $query = Post::select(_groupArr()) ;//->where('posts.is_active',1);
         
         $query = Post::lang_query($query);
 
@@ -96,11 +96,10 @@ class IndexController extends Controller
 
         $total_pages = ceil($posts_count / $item_per_page);  
 
-     
-
         $page_url =  \Request::fullUrl(); 
         $query = parse_url($page_url, PHP_URL_QUERY);
         if ($query) {$page_url .= '&'; } else {$page_url .= '?'; }
+
         return view('index', compact('posts', 'posts_count','total_pages','param','page_url'));
 
     }
@@ -294,6 +293,4 @@ class IndexController extends Controller
 
     }
 
-
-  
 }
